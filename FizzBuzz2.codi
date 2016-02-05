@@ -1,0 +1,12 @@
+# FizzBuzz 2
+para i 1..100
+	switch n
+		caso multiplo 3 y 5
+			imprime FizzBuzz
+		caso multiplo 3
+			imprime Fizz
+		caso multiplo 5
+			imprime Buzz
+		defecto
+			imprime n
+fpara

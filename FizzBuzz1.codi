@@ -1,0 +1,16 @@
+# FizzBuzz 1
+para i 1..100
+	si multiplo 3 y 5
+		imprime FizzBuzz
+	sino
+		si multiplo 3
+			imprime Fizz
+		sino
+			si multiplo 5
+				imprime Buzz
+			sino
+				imprime n
+			fsi
+		fsi
+	fsi	
+fpara

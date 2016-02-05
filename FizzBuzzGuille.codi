@@ -1,0 +1,13 @@
+# FizzBuzz Guille
+para i 1..100
+	cont=0
+	si multiplo 3
+		imprime Fizz
+		cont=1
+	si multiplo 5
+		imprime Buzz
+		cont=1
+	si cont=0
+		imprime i
+	imprime CR
+fpara
